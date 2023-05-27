@@ -1,11 +1,10 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 function Header() {
   return (
     <header>
-      <a href=" ">Login</a>
-      <a href=" ">Home</a>
+      <a href=" ">Início</a>
       <a href=" ">Cadastro</a>
     </header>
   );

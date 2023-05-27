@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import api from "../service/api";
-import "./style.css";
+import React, { useState } from 'react';
+import './style.css';
 
 function Register() {
   const [usuario, setUsuario] = useState({});
@@ -14,7 +13,9 @@ function Register() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(usuario);
+    // api.post("/users", usuario).then((response) => {
+    //   console.log(response);
+    // });
   }
 
   return (
