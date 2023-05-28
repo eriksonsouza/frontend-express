@@ -24,15 +24,14 @@
 
 .container form h2 {
     display: flex;
-    justify-content: center;
-    padding-top: 10px;
+    padding: 20px 0 10px 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 .container form .row {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 70px;
     width: 100%;
     align-items: center;
     justify-content: space-between;

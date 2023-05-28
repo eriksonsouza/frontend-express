@@ -25,23 +25,19 @@ function Register() {
         <h2>Cadastro de Usuário</h2>
         <div className="row">
           <span>Nome</span>
-          <input type="text" name="name" onChange={handleChange} />
+          <input type="text" name="name" required onChange={handleChange} />
         </div>
         <div className="row">
           <span>E-mail</span>
           <input type="text" name="email" onChange={handleChange} />
         </div>
         <div className="row">
-          <span>Username</span>
-          <input type="text" name="username" onChange={handleChange} />
+          <span>Endereço</span>
+          <input type="text" name="username" required onChange={handleChange} />
         </div>
         <div className="row">
-          <span>Password</span>
-          <input type="password" name="password" onChange={handleChange} />
-        </div>
-        <div className="row">
-          <span>Phone</span>
-          <input type="text" name="phone" onChange={handleChange} />
+          <span>Telefone</span>
+          <input type="text" name="phone" required onChange={handleChange} />
         </div>
         <div className="row">
           <button>Cadastrar</button>
